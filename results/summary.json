@@ -1,0 +1,87 @@
+{
+  "upstream_commit": "089ed468cf3ed0322acc66b0211f26d9d90dbf60",
+  "n_pipelines": 28,
+  "n_cells": 19380,
+  "skipped_missing_outcome": {
+    "meta-llama_Llama-3.3-70B-Instruct-repeat_user_prompt": 1
+  },
+  "cells_with_error": {
+    "command-r": 3,
+    "command-r-plus": 22,
+    "gemini-1.5-pro-001": 19,
+    "gpt-3.5-turbo-0125": 12,
+    "meta-llama_Llama-3-70b-chat-hf": 35
+  },
+  "pairwise_groups": {
+    "949": [
+      "Meta-SecAlign-70B",
+      "Meta-SecAlign-70B-repeat_user_prompt",
+      "claude-3-7-sonnet-20250219",
+      "gemini-2.0-flash-001",
+      "meta-llama_Llama-3.3-70B-Instruct"
+    ],
+    "629": [
+      "claude-3-5-sonnet-20240620",
+      "claude-3-5-sonnet-20241022",
+      "claude-3-haiku-20240307",
+      "claude-3-opus-20240229",
+      "claude-3-sonnet-20240229",
+      "command-r",
+      "command-r-plus",
+      "gemini-1.5-flash-001",
+      "gemini-1.5-flash-002",
+      "gemini-1.5-pro-001",
+      "gemini-1.5-pro-002",
+      "gemini-2.0-flash-exp",
+      "gpt-3.5-turbo-0125",
+      "gpt-4-0125-preview",
+      "gpt-4-turbo-2024-04-09",
+      "gpt-4o-2024-05-13",
+      "gpt-4o-2024-05-13-repeat_user_prompt",
+      "gpt-4o-2024-05-13-spotlighting_with_delimiting",
+      "gpt-4o-2024-05-13-tool_filter",
+      "gpt-4o-2024-05-13-transformers_pi_detector",
+      "gpt-4o-mini-2024-07-18",
+      "meta-llama_Llama-3-70b-chat-hf"
+    ],
+    "797": [
+      "meta-llama_Llama-3.3-70B-Instruct-repeat_user_prompt"
+    ]
+  },
+  "all_pairs:utility": {
+    "pairs": 241,
+    "sig_naive": 199,
+    "sig_user": 168,
+    "sig_inj": 203,
+    "sig_rule": 168,
+    "sig_twoway": 167,
+    "sig_pigeon": 159
+  },
+  "all_pairs:attack_success": {
+    "pairs": 241,
+    "sig_naive": 211,
+    "sig_user": 205,
+    "sig_inj": 191,
+    "sig_rule": 191,
+    "sig_twoway": 185,
+    "sig_pigeon": 179
+  },
+  "model_pairs:utility": {
+    "pairs": 159,
+    "sig_naive": 126,
+    "sig_user": 103,
+    "sig_inj": 128,
+    "sig_rule": 103,
+    "sig_twoway": 101,
+    "sig_pigeon": 96
+  },
+  "model_pairs:attack_success": {
+    "pairs": 159,
+    "sig_naive": 140,
+    "sig_user": 136,
+    "sig_inj": 131,
+    "sig_rule": 131,
+    "sig_twoway": 127,
+    "sig_pigeon": 121
+  }
+}
